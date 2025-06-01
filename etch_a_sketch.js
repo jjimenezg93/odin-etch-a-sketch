@@ -1,6 +1,6 @@
 const boardSize = 1024;
 const minGridSize = 8;
-const maxGridSize = 8;
+const maxGridSize = 100;
 
 let gridSize = 16;
 let gridElement = document.querySelector("#grid");
