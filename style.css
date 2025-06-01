@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+}
+
+#control-buttons {
+  display: flex;
+  margin-top: 50px;
+}
+
+.grid-cell {
+  list-style: none;
+  border-width: 1px;
+  border-style: solid;
+  border-color: black;
+}
+
+#grid {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: black;
+}
